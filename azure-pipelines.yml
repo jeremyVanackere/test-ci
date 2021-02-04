@@ -22,7 +22,7 @@ steps:
 
 - task: npm@1
   displayName: 'npm test'
-  iinputs:
+  inputs:
     command: 'custom'
     workingDir: 'src/ci-app'
     customCommand: 'run test:ci'nputs:
