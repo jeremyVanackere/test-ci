@@ -24,4 +24,4 @@ steps:
   displayName: 'npm test'
   inputs:
     command: 'custom'
-    customCommand: 'run test:ci'
+    customCommand: 'run test'
