@@ -30,4 +30,4 @@ steps:
   displayName: 'supply npm test results to pipelines'
   condition: succeededOrFailed() # sinon on ne sait pas si les tests ont réussi
   inputs:
-    testResultsFiles: 'src/client-app/junit.xml'
+    testResultsFiles: 'junit.xml'
