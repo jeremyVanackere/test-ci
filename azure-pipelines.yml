@@ -24,5 +24,4 @@ steps:
   displayName: 'npm test'
   inputs:
     command: 'custom'
-    workingDir: 'src/ci-app'
     customCommand: 'run test:ci'
